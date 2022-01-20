@@ -1,0 +1,32 @@
+{
+  "name": "timestamp-svc",
+  "version": "1.0.0",
+  "description": "timestamp api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "express": "^4.17.2"
+  },
+  "engines": {
+    "node": "14.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zc2021/timestampAPI.git"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ],
+  "author": "Zoey Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zc2021/timestampAPI/issues"
+  },
+  "homepage": "https://github.com/zc2021/timestampAPI#readme"
+}
