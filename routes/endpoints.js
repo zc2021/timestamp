@@ -4,7 +4,7 @@ const express = require('express');
 const recordRoutes = express.Router();
 
 recordRoutes.route('/').get(function (_req, res) {
-  res.sendFile(__dirname + '/views/index.html');
+  res.sendFile(path.dirname(__dirname) + '/views/index.html');
 });
 
 recordRoutes.route('/api/:date?').get(function (req, res) {
